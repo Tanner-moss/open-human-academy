@@ -1,0 +1,2 @@
+# Redirect www to apex
+https://www.openhumanacademy.com/* https://openhumanacademy.com/:splat 301

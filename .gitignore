@@ -1,0 +1,16 @@
+# Build artifacts
+HumanAcademy.exe
+OpenHumanAcademy.exe
+deploy/
+.wrangler/
+node_modules/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.vscode/settings.json
+*.swp
+*.swo
