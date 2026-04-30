@@ -1,0 +1,36 @@
+{
+  "id": "course-hist-historiography",
+  "disciplineId": "history",
+  "nodeId": "hist-historiography",
+  "title": "Historiography",
+  "summary": "Study how historians have argued about method, scale, narrative, class, memory, and objectivity across major schools of historical writing.",
+  "estimatedTime": "5-7 hours",
+  "learningObjectives": [
+    "Compare major schools such as Rankean history, Annales, Marxist history, and postmodern approaches",
+    "Explain how historical writing is shaped by scale, archive choices, and narrative form",
+    "Assess how historiographical commitments change what counts as evidence and explanation"
+  ],
+  "lessons": [
+    "lesson-hist-historiography-schools",
+    "lesson-hist-historiography-turns"
+  ],
+  "quizIds": [
+    "quiz-hist-historiography-check-1"
+  ],
+  "testId": "test-hist-historiography-core",
+  "labIds": [
+    "lab-hist-historiography-comparison"
+  ],
+  "projectIds": [
+    "project-hist-historiography-debate"
+  ],
+  "mediaIds": [
+    "media-hist-historiography-wikipedia",
+    "media-hist-historiography-youtube-1"
+  ],
+  "masteryCriteria": [
+    "Pass the historiography test at 80 percent or above",
+    "Complete the historiography comparison lab",
+    "Finish the historiographical debate project"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "lesson-template-id",
+  "title": "Lesson Title",
+  "summary": "One-paragraph explanation of what the learner will understand by the end of the lesson.",
+  "estimatedTime": "30-45 minutes",
+  "learningObjectives": [
+    "Understand the core concept",
+    "Apply the concept to one example",
+    "Explain why it matters in the wider discipline"
+  ],
+  "studyBlocks": [
+    {
+      "type": "hook",
+      "heading": "Why this matters",
+      "content": "Short motivation for the lesson."
+    },
+    {
+      "type": "explanation",
+      "heading": "Core explanation",
+      "content": "Main teaching content goes here."
+    },
+    {
+      "type": "example",
+      "heading": "Worked example",
+      "content": "Concrete example or case study."
+    },
+    {
+      "type": "mistakes",
+      "heading": "Common mistakes",
+      "content": "What learners often get wrong."
+    }
+  ],
+  "glossary": ["term-one", "term-two"],
+  "checkForUnderstanding": ["quiz-check-id"],
+  "mediaIds": ["media-id"],
+  "nextUnlock": "next-node-or-lesson-id"
+}

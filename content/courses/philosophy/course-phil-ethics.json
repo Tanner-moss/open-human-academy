@@ -1,0 +1,36 @@
+{
+  "id": "course-phil-ethics",
+  "disciplineId": "philosophy",
+  "nodeId": "phil-ethics",
+  "title": "Ethics and Moral Philosophy",
+  "summary": "Move from metaethical foundations into deontology, consequentialism, virtue ethics, and applied moral reasoning in public life.",
+  "estimatedTime": "5-7 hours",
+  "learningObjectives": [
+    "Distinguish metaethical debates from normative ethical theories",
+    "Compare deontological, consequentialist, and virtue-ethical reasoning",
+    "Apply ethical frameworks to contemporary cases without reducing them to slogans"
+  ],
+  "lessons": [
+    "lesson-phil-ethics-frameworks",
+    "lesson-phil-ethics-applied"
+  ],
+  "quizIds": [
+    "quiz-phil-ethics-check-1"
+  ],
+  "testId": "test-phil-ethics-core",
+  "labIds": [
+    "lab-phil-ethics-case-analysis"
+  ],
+  "projectIds": [
+    "project-phil-ethics-position-paper"
+  ],
+  "mediaIds": [
+    "media-phil-ethics-wikipedia",
+    "media-phil-ethics-youtube-1"
+  ],
+  "masteryCriteria": [
+    "Pass the ethics core test at 80 percent or above",
+    "Complete the case analysis lab",
+    "Finish the ethical position paper project"
+  ]
+}

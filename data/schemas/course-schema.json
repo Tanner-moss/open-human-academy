@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Human Academy Course",
+  "type": "object",
+  "required": [
+    "id",
+    "disciplineId",
+    "nodeId",
+    "title",
+    "summary",
+    "learningObjectives",
+    "lessons",
+    "quizIds",
+    "labIds",
+    "projectIds",
+    "mediaIds",
+    "masteryCriteria"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "disciplineId": { "type": "string" },
+    "nodeId": { "type": "string" },
+    "title": { "type": "string" },
+    "summary": { "type": "string" },
+    "estimatedTime": { "type": "string" },
+    "learningObjectives": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "lessons": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "quizIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "testId": {
+      "type": ["string", "null"]
+    },
+    "labIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "projectIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "mediaIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "masteryCriteria": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

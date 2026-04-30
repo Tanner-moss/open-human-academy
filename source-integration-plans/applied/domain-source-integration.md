@@ -1,0 +1,11 @@
+﻿# Applied Sciences Source Integration Tracker  ## Prompt Preferences - Use the full `schools-of-thought.md` material for this domain instead of shallow seed summaries. - Keep domain-level navigation aligned with the source so the domain acts as a real entry surface into its disciplines. - Use discipline-level subject areas as nodes when they are graph-sized; move finer-grained source detail into coursework. - Continue using this file to track source-driven curriculum expansion work for the Applied Sciences domain.  ## Current Implementation Plan - Audit each discipline in this domain against its full source section. - Expand node graphs, coursework, and roadmap links from the actual source headings and major subject areas. - Keep the shared resolver, Knowledge Tree, Skill Tree, and Roadmap aligned to the same source-driven structures. - Rebuild `HumanAcademy.exe` after substantial Applied Sciences content passes.  ## Disciplines - Agriculture (`agriculture`)
+- Architecture (`architecture`)
+- Engineering (`engineering`)
+- Medicine (`medicine`)
+- Education (`education`)
+- Environmental Science (`environmental`)
+- Energy Studies (`energy-studies`)
+- Food Science & Nutrition (`food-science-nutrition`)
+- Sports Science (`sports-science`)
+- Disaster Science & Emergency Management (`disaster-science-emergency-management`)
+- Forensic Sciences (`forensic-sciences`)  ## Progress - [ ] Audit all domain disciplines against `schools-of-thought.md` - [ ] Expand source-driven node structures where needed - [ ] Expand source-driven course depth for each discipline - [ ] Verify cross-surface navigation for the domain - [ ] Rebuild and smoke-test executable

@@ -1,0 +1,25 @@
+{
+  "id": "project-template-id",
+  "title": "Project Title",
+  "drivingQuestion": "What big question does the project answer?",
+  "scope": "Define size and boundaries.",
+  "requirements": [
+    "Requirement 1",
+    "Requirement 2"
+  ],
+  "deliverables": [
+    "Main deliverable",
+    "Reflection"
+  ],
+  "milestones": [
+    "Proposal",
+    "Draft",
+    "Final submission"
+  ],
+  "rubric": [
+    "Depth of understanding",
+    "Use of sources",
+    "Originality",
+    "Presentation quality"
+  ]
+}

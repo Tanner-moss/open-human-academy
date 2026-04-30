@@ -1,0 +1,21 @@
+{
+  "id": "lab-template-id",
+  "title": "Lab Title",
+  "goal": "State the practical or analytical skill being exercised.",
+  "inputs": [
+    "primary-source-or-text",
+    "worksheet-or-prompt"
+  ],
+  "procedure": [
+    "Step 1",
+    "Step 2",
+    "Step 3"
+  ],
+  "deliverable": "Describe what the learner turns in.",
+  "rubric": [
+    "Accuracy",
+    "Use of evidence",
+    "Clarity of reasoning"
+  ],
+  "extensionTask": "Optional harder version or stretch task."
+}

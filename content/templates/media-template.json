@@ -1,0 +1,11 @@
+{
+  "id": "media-template-id",
+  "type": "youtube",
+  "title": "Media Title",
+  "url": "https://example.com/resource",
+  "embedUrl": "https://example.com/embed/resource",
+  "placement": "after-lesson",
+  "required": false,
+  "whyThisMatters": "Explain why this media is included.",
+  "fallback": "Describe what to do if the media becomes unavailable."
+}

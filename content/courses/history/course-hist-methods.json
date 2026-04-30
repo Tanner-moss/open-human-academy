@@ -1,0 +1,36 @@
+{
+  "id": "course-hist-methods",
+  "disciplineId": "history",
+  "nodeId": "hist-methods",
+  "title": "Historical Methods",
+  "summary": "Learn how historians define evidence, evaluate sources, frame causation, and build arguments about the past without confusing records with reality.",
+  "estimatedTime": "4-6 hours",
+  "learningObjectives": [
+    "Distinguish primary, secondary, and tertiary sources in practice",
+    "Apply external and internal source criticism to a historical document",
+    "Explain how periodization, causation, and interpretation shape historical argument"
+  ],
+  "lessons": [
+    "lesson-hist-methods-sources",
+    "lesson-hist-methods-causation"
+  ],
+  "quizIds": [
+    "quiz-hist-methods-check-1"
+  ],
+  "testId": "test-hist-methods-core",
+  "labIds": [
+    "lab-hist-methods-source-criticism"
+  ],
+  "projectIds": [
+    "project-hist-methods-mini-casebook"
+  ],
+  "mediaIds": [
+    "media-hist-methods-wikipedia",
+    "media-hist-methods-youtube-1"
+  ],
+  "masteryCriteria": [
+    "Pass the historical methods test at 80 percent or above",
+    "Complete the source criticism lab",
+    "Finish the mini casebook project"
+  ]
+}

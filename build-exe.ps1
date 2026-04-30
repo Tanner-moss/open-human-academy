@@ -22,7 +22,7 @@ public static class Program
         }
 
         MessageBox.Show(
-            "Could not find index.html next to OpenHumanAcademy.exe.",
+            "Could not find index.html next to HumanAcademy.exe.",
             "Open Human Academy Launcher",
             MessageBoxButtons.OK,
             MessageBoxIcon.Error
@@ -36,7 +36,7 @@ Add-Type -AssemblyName System.Windows.Forms
 $provider = New-Object Microsoft.CSharp.CSharpCodeProvider
 $params = New-Object System.CodeDom.Compiler.CompilerParameters
 $params.GenerateExecutable = $true
-$params.OutputAssembly = "OpenHumanAcademy.exe"
+$params.OutputAssembly = "HumanAcademy.exe"
 $params.GenerateInMemory = $false
 $params.CompilerOptions = "/target:winexe /optimize"
 [void]$params.ReferencedAssemblies.Add("System.dll")

@@ -1,0 +1,26 @@
+{
+  "id": "test-template-id",
+  "title": "Module Test Title",
+  "passThreshold": 80,
+  "sections": [
+    {
+      "type": "recall",
+      "instructions": "Check terminology and basic conceptual recall.",
+      "questionIds": ["question-1", "question-2"]
+    },
+    {
+      "type": "application",
+      "instructions": "Apply ideas to examples or scenarios.",
+      "questionIds": ["question-3"]
+    },
+    {
+      "type": "synthesis",
+      "instructions": "Explain or compare concepts in depth.",
+      "questionIds": ["question-4"]
+    }
+  ],
+  "feedbackNotes": {
+    "belowThreshold": "Review the key lesson objectives and retry after completing the study blocks again.",
+    "passing": "You are ready to move to the next stage."
+  }
+}

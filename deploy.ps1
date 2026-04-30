@@ -9,10 +9,20 @@ $deployDir = "deploy"
 if (Test-Path $deployDir) { Remove-Item -Recurse -Force $deployDir }
 New-Item -ItemType Directory -Path $deployDir | Out-Null
 
-# Copy only web-servable files
+# Copy the current web app and its runtime assets.
 $files = @("index.html", "schools-of-thought.md", "og-image.png", "og-image.svg", "404.html", "_headers", "_redirects")
+$directories = @("data", "content")
+
 foreach ($f in $files) {
-    if (Test-Path $f) { Copy-Item $f -Destination "$deployDir\" }
+    if (Test-Path $f) {
+        Copy-Item $f -Destination "$deployDir\"
+    }
+}
+
+foreach ($dir in $directories) {
+    if (Test-Path $dir) {
+        Copy-Item $dir -Destination "$deployDir\$dir" -Recurse
+    }
 }
 
 Write-Host "Deploying to Cloudflare Pages..." -ForegroundColor Cyan

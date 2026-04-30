@@ -1,0 +1,36 @@
+{
+  "id": "course-phil-epistemology",
+  "disciplineId": "philosophy",
+  "nodeId": "phil-epistemology",
+  "title": "Epistemology",
+  "summary": "Study knowledge, justification, skepticism, and the social conditions that shape what counts as responsible belief.",
+  "estimatedTime": "5-7 hours",
+  "learningObjectives": [
+    "Explain why the Gettier problem changed theories of knowledge",
+    "Compare foundationalist, coherentist, reliabilist, and virtue-theoretic accounts of justification",
+    "Connect individual inquiry to testimony, bias, and epistemic injustice"
+  ],
+  "lessons": [
+    "lesson-phil-epistemology-knowledge",
+    "lesson-phil-epistemology-skepticism"
+  ],
+  "quizIds": [
+    "quiz-phil-epistemology-check-1"
+  ],
+  "testId": "test-phil-epistemology-core",
+  "labIds": [
+    "lab-phil-epistemology-justification-audit"
+  ],
+  "projectIds": [
+    "project-phil-epistemology-inquiry-journal"
+  ],
+  "mediaIds": [
+    "media-phil-epistemology-wikipedia",
+    "media-phil-epistemology-youtube-1"
+  ],
+  "masteryCriteria": [
+    "Pass the epistemology core test at 80 percent or above",
+    "Complete the justification audit lab",
+    "Finish the inquiry journal project"
+  ]
+}

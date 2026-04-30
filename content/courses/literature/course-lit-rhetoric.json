@@ -1,0 +1,36 @@
+{
+  "id": "course-lit-rhetoric",
+  "disciplineId": "literature",
+  "nodeId": "lit-rhetoric",
+  "title": "Rhetoric and Poetics",
+  "summary": "Study persuasion, poetic form, figurative language, metre, and genre through the classical roots of literary analysis and verbal craft.",
+  "estimatedTime": "5-7 hours",
+  "learningObjectives": [
+    "Explain classical rhetorical appeals and key concepts from poetics",
+    "Recognize major figures of speech and poetic forms in context",
+    "Use metre, prosody, and genre vocabulary precisely in literary analysis"
+  ],
+  "lessons": [
+    "lesson-lit-rhetoric-classical-foundations",
+    "lesson-lit-rhetoric-forms-and-figures"
+  ],
+  "quizIds": [
+    "quiz-lit-rhetoric-check-1"
+  ],
+  "testId": "test-lit-rhetoric-core",
+  "labIds": [
+    "lab-lit-rhetoric-scansion"
+  ],
+  "projectIds": [
+    "project-lit-rhetoric-analysis"
+  ],
+  "mediaIds": [
+    "media-lit-rhetoric-wikipedia",
+    "media-lit-rhetoric-youtube-1"
+  ],
+  "masteryCriteria": [
+    "Pass the rhetoric and poetics test at 80 percent or above",
+    "Complete the scansion lab",
+    "Finish the rhetoric analysis project"
+  ]
+}
